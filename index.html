@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.bootcdn.net/ajax/libs/bootstrap-select/1.13.18/css/bootstrap-select.min.css"
+        rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/popper.js/2.11.5/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/bootstrap-select/1.13.18/js/bootstrap-select.min.js"></script>
+</head>
+
+<body class="p-3 m-0 border-0 bd-example">
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example select</label>
+        <select rows="3" class="form-control selectpicker" id="exampleFormControlTextarea1" multiple>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+        </select>
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Confirm</button>
+    </div>
+</body>
+<script>
+    $('.selectpicker').selectpicker({
+        // style: 'btn-info',
+        size: 4
+    });
+</script>
+
+</html>

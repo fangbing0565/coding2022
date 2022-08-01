@@ -1,0 +1,51 @@
+body{
+    box-sizing: content-box;
+    width: 100%;
+}
+
+
+
+.head{
+    
+    margin-top: 30px;
+    margin-left: 5%;
+    
+}
+
+.input-group{
+    margin-left: 5%;
+    width: 600px;
+}
+
+.form-select{
+    margin-left: 5%;
+    width: 600px;
+}
+.selecttag{
+    height: 50px;
+  
+    margin-top: 10px;
+   
+}
+
+.search_button{
+    margin-left: 5%;
+    margin-top: 10px;
+    
+}
+.btn_search{
+    height: 40px;
+    width: 100px;
+   border-color: rgb(199, 199, 199);
+}
+
+.reset_button{
+    margin-left: 1%;
+    margin-top: 10px;
+}
+
+.btn_reset{
+    height: 40px;
+    width: 100px;
+    border-color: rgb(199, 199, 199);
+}

@@ -1,0 +1,63 @@
+body{
+    box-sizing: content-box;
+    width: 100%;
+}
+
+
+
+.head{
+    
+    margin-top: 30px;
+    margin-left: 5%;
+    
+}
+
+.input-group{
+    margin-left: 5%;
+    width: 600px;
+}
+
+.form-select{
+    margin-left: 5%;
+    width: 600px;
+    height: 40px;
+}
+.selecttag{
+    height: 50px;
+  
+    margin-top: 10px;
+   
+}
+
+.search_button{
+    margin-left: 5%;
+    margin-top: 10px;
+    
+}
+.btn_search{
+    height: 40px;
+    width: 100px;
+   border-color: rgb(199, 199, 199);
+}
+
+.reset_button{
+    margin-left: 1%;
+    margin-top: 10px;
+}
+
+.btn_reset{
+    height: 40px;
+    width: 100px;
+    border-color: rgb(199, 199, 199);
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hideform {
+    display: none;
+}
